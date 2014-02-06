@@ -20,19 +20,23 @@
 
 <body>
 	<div class = "container">
+
+
 		<h1>My HCI Friends</h1>
+
+		<a href="/" class="btn btn-success btn-large"><i class="icon-white icon-home"></i> Home</a>
 
 		<div class = "friend">
 			<img src="http://lorempixel.com/500/500/people" alt="Lorem Pixel image" class="img-responsive"/>
-			<a href ='#'  class = 'anagram'><h4>Fake friend</h4></a>
-			<p>All my friend are imaginary</p>
+			<a href ='#' '#' class = 'anagram'><h4>Fake friend</h4></a>
+			<p>All my friend are imaginaryy</p>
 			<hr>
 		</div>
 
 		{{#each friends}}
 			<div class="friend">
 			    <img src="{{imageURL}}" class= "img-responsive"/>
-			    <a href = '#'  class = 'anagram'><h4>{{name}}</h4></a>
+			    <a href = '#' class = 'anagram'><h4>{{name}}</h4></a>
 			    <p>{{description}}</p>
 			    <hr>
 		    </div>
